@@ -18,21 +18,21 @@
                     android:id="@+id/tv_nameProduct"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ten san pham"
+                    android:text="Tên sản phẩm: "
                     android:textSize="20sp"
                     />
                 <TextView
                     android:id="@+id/tv_priceProduct"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="gia tien"
+                    android:text="Giá tiền: "
                     android:textSize="20sp"
                     />
                 <TextView
                     android:id="@+id/tv_descriptionProduct"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="loai san pham"
+                    android:text="Loại sản phẩm: "
                     android:textSize="20sp"
                     />
                 <LinearLayout
@@ -44,12 +44,13 @@
                         android:id="@+id/btn_sua"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="sua"/>
+                        android:layout_marginRight="40dp"
+                        android:text="Sửa"/>
                     <Button
                         android:id="@+id/btn_xoa"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="xoa"/>
+                        android:text="Xóa"/>
                 </LinearLayout>
 
             </LinearLayout>

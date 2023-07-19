@@ -117,10 +117,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onResponse(Call<ProductModel> call, Response<ProductModel> response) {
                 if (response.isSuccessful()) {
                     ProductModel model1 = response.body();
-                    Toast.makeText(MainActivity.this, "sua thanh cong", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Sửa thành công!!!", Toast.LENGTH_SHORT).show();
                     ShowProduct();
                 } else {
-                    Toast.makeText(MainActivity.this, "sua that bai", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Sửa thất bại!!!", Toast.LENGTH_SHORT).show();
                     Log.e("API Error", "Failed to fetch products");
                 }
             }
@@ -139,10 +139,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onResponse(Call<Void> call, Response<Void> response) {
                 if (response.isSuccessful()) {
-                    Toast.makeText(MainActivity.this, "xoa thanh cong", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Xóa Thành công", Toast.LENGTH_SHORT).show();
                     ShowProduct();
                 } else {
-                    Toast.makeText(MainActivity.this, "xoa that bai", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Xóa thất bại", Toast.LENGTH_SHORT).show();
                     Log.e("API Error", "Failed to fetch products");
                 }
             }

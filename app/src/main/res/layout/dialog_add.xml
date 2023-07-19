@@ -10,17 +10,17 @@
     android:background="@color/white">
     <EditText
         android:id="@+id/ed_ten"
-        android:hint="name"
+        android:hint="Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/ed_gia"
-        android:hint="price"
+        android:hint="Price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/ed_mota"
-        android:hint="description"
+        android:hint="Description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <LinearLayout
@@ -30,13 +30,14 @@
         android:gravity="center">
         <Button
             android:id="@+id/btn_them"
-            android:text="add"
+            android:text="Add"
             android:layout_width="wrap_content"
+            android:layout_marginRight="25dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"/>
         <Button
             android:id="@+id/btn_huy"
-            android:text="cancel"
+            android:text="Cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"/>
